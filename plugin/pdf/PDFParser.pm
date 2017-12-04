@@ -458,7 +458,7 @@ sub l_image {
 	$self->end_text;
 	$self->end_verbatim;
 	
-	unless($file =~ /\.jpe?g$/i){
+	unless($file =~ /\.(jpe?g|png)$/i){
 		return;
 	}
 	
